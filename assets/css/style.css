@@ -257,3 +257,13 @@ footer {
   color: #fff;
 }
 
+.links header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+.links img {
+  width: 100%;
+  min-width: 400px;
+}
