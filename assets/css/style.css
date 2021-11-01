@@ -252,15 +252,8 @@ footer {
   text-align: center;
   border-style: solid;
   border-width: 1px;
-}
-
-.links header {
   padding: 20px;
   background: #13293d;
   color: #fff;
 }
 
-.links img {
-  width: 100%;
-  min-width: 400px;
-}
