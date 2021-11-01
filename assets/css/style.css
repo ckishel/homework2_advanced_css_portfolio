@@ -3,7 +3,7 @@
   --outer-space: #33393f;
   --bright-turquoise: #2aefcb;
   --gin: #e0eae4;
-  --heliotrope: #e866ec;
+  --aquamarine: #7fffd4;
 }
 
 /* set content highlight color and background */
@@ -36,7 +36,7 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.625rem;
-  color: var(--heliotrope);
+  color: var(--aquamarine);
   font-weight: 700;
   line-height: 1.1;
 }
@@ -45,14 +45,14 @@ h1 {
   /* 4rem = 40px (4 * 10px) */
   font-size: 4rem;
   color: #fff;
-	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #7fffd4, 0 0 30px #7fffd4, 0 0 40px #7fffd4, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
 	letter-spacing: 5px;
 	font: 80px 'MisoRegular';
 }
 
 h1 .seo {
   color:#d9dcd6;
-  text-shadow: -2px 2px 3px #ff2d95;
+  text-shadow: -2px 2px 3px #7fffd4;
 }
 
 h2 {
@@ -141,7 +141,7 @@ footer {
   justify-content: flex-start;
   min-height: 100%;
   padding: 2rem;
-  color: var(--heliotrope);
+  color: var(--aquamarine);
 
   /* outline is like border, but on the outside of the box instead of inside */
   outline: 2px dashed var(--gin);
@@ -155,7 +155,7 @@ footer {
   margin: -4rem 0 1.5rem 0;
   padding: 0.5rem 1rem;
   background-color: var(--outer-space);
-  color: var(--heliotrope);
+  color: var(--aquamarine);
   border: 2px solid var(--gin);
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
@@ -164,7 +164,7 @@ footer {
 /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
 .code-card:hover,
 .code-card:hover .card-header {
-  box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
+  box-shadow: inset 0px 0px 8px var(--aquamarine), 0 0 15px var(--aquamarine);
 }
 
 /* each card's code block grows to the height of the largest code block on the page, making each card even in height */
@@ -182,8 +182,8 @@ footer {
   border-radius: 8px;
   /* use linear-gradient() function to create a fading background  */
   background-image: linear-gradient(
-    rgba(232, 102, 236, 0.3) 0%,
-    rgba(232, 102, 236, 0.6) 100%
+    rgba(0,128,128, 0.3) 10%,
+    rgba(127,255,212, 0.6) 100%
   );
   display: flex;
   align-items: center;
@@ -249,7 +249,7 @@ footer {
 .links {
   flex: 1 0 0;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   border-style: solid;
   border-width: 1px;
   padding: 20px;
