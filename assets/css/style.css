@@ -220,4 +220,52 @@ footer {
   }
 }
 
+/* CHRIS JUST TRYING THINGS OUT HERE */
 
+.photo {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.photo header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+.photo img {
+  width: 100%;
+  min-width: 400px;
+}
+
+#photo img {
+  width: 100%;
+  min-width: 400px;
+}
+
+.links {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.links header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+.links img {
+  width: 100%;
+  min-width: 400px;
+}
+
+#links img {
+  width: 100%;
+  min-width: 400px;
+}
