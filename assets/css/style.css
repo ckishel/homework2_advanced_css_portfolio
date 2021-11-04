@@ -79,12 +79,6 @@ figure #top-image{
   color: white;
 }
 
-#chris-image{
-  max-width: 15%;
-  float:left;
-}
-
-
 #subtitle{
   position: absolute;
   display: flex;
@@ -97,16 +91,39 @@ figure #top-image{
   background-color: #13293d;
 }
 
-#image-text{
+#chris-image{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+figure #chris-image{
+  width: 100%;
+  display: flex;
+  color: white;
+}
+
+#chris-subtitle{
   position: absolute;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   bottom: 20px;
-  right: 16px;
+  left: 16px;
   font-size: larger;
   padding: 1%;
-  color: #fff;
+  background-color: #13293d;
+}
+
+#chris-subtitle span{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  bottom: 20px;
+  left: 10px;
+  font-size: smaller;
+  padding: 1%;
   background-color: #13293d;
 }
 
