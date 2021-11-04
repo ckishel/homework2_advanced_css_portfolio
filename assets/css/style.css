@@ -133,25 +133,33 @@ main{
 }
 
 /* flex in aside section is the size of left hand column */
+
 .column1{
   flex: 20%;
   background-color: #fff;
   color: #13293d;
-  padding: 80px;
   text-align: right;
   border-right: solid;
   border-width: 10px;
   border-radius: 10px;
   border-color: #13293d;
-  margin-bottom: 100px;
+  padding-right: 20px;
+  padding-top: 100px;
 
+
+}
+
+.column1 #about-me{
+  border-right: solid;
+  border-width: 10px;
+  border-radius: 10px;
+  padding: 400;
 }
 
 .column2{
   flex: 80%;
   background-color: #fff;
   color: #13293d;
-  padding: 80px;
   text-align: right;
 }
 
@@ -162,10 +170,35 @@ footer{
   color: #fff;
 }
 /* padding in projects class gives this a border between header */
+
+.top-project{
+  flex: 4;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right:700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .projects{
   flex: 4;
   background-color: #fff;
-  padding: 20px;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 200px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bottom-project{
+  flex: 4;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -220,25 +253,59 @@ footer{
   padding: 20px;
 }
 
-
-/* 
-What does the flex-direction property define?
-It defines in which direction the container wants to stack the flex items
-What is it doing here? 
-We are telling the main body and navbar to stack vertically in a column
-*/
-@media screen and (max-width: 768px) {
-  main,
-  nav {
-    flex-direction: column;
-  }
+#project-image{
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-@media screen and (min-width: 768px) {}
+figure #project-image{
+  width: 100%;
+  display: flex;
+  color: white;
+}
 
-@media screen and (min-width: 992px) {}
+#project-subtitle{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  bottom: 20px;
+  left: 16px;
+  font-size: larger;
+  padding: 1%;
+  background-color: #13293d;
+}
 
+#project-subtitle span{
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  bottom: 20px;
+  left: 10px;
+  font-size: smaller;
+  padding: 1%;
+  background-color: #13293d;
 
+@media screen and (max-width: 768px) {
+  main,
+   nav {
+     flex-direction: column;
+   }
+}
+
+/* 
+@media screen and (min-width: 800px) {
+  .column1 {
+    flex: 1
+  }
+
+  .column2 {
+    flex: 2
+  }
+}
+*/
 
 /* free surf image https://unsplash.com/photos/jzPxXNZfhrE */
 
@@ -253,3 +320,13 @@ We are telling the main body and navbar to stack vertically in a column
 /* free Day Planner Image https://unsplash.com/photos/flRm0z3MEoA */
 
 /* Weather Image https://unsplash.com/photos/ieWHXjjAEwY */
+
+
+
+What does the flex-direction property define?
+It defines in which direction the container wants to stack the flex items
+What is it doing here? 
+We are telling the main body and navbar to stack vertically in a column
+
+
+
