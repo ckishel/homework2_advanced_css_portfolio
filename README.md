@@ -37,4 +37,4 @@ The following animation shows the web application's appearance and functionality
 
 This layout is designed for desktop viewing, but optimized for mobile. When you scroll in or out the flex design should place images and sections one top top of the other, in a column.
 
-URL: https://ckishel.github.io/homework2_advanced_css_portfolio/#contact-me
+URL: https://ckishel.github.io/homework2_advanced_css_portfolio/
