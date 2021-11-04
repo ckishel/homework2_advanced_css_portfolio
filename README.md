@@ -33,4 +33,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/portfolio-website-preview.jpg)
+![portfolio demo](./assets/images/portfolio-website-preview.jpg)
+
+This layout is designed for desktop viewing, but optimized for mobile. When you scroll in or out the flex design should place images and sections one top top of the other, in a column.
+
+URL: https://ckishel.github.io/homework2_advanced_css_portfolio/#contact-me
