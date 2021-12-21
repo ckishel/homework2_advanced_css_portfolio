@@ -166,15 +166,14 @@ footer{
   color: #fff;
 }
 
-#contact-subtitle{
+/* #contact-subtitle{
 
-}
+} */
 
 .contact-subtitle p span a:hover{
   color: #7fffd4;
   text-decoration: underline;
 }
-
 
 /* padding in projects class gives this a border between header */
 
