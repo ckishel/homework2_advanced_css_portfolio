@@ -79,6 +79,10 @@ header nav a:hover{
 /* Footer */
 
 footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   padding: 40px;
   text-align: left;
   background: #13293d;

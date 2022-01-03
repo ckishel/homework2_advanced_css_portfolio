@@ -33,9 +33,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo 1](./assets/images/portfolio-website-preview-1.png)
-![portfolio demo 2](./assets/images/portfolio-website-preview-2.png)
-![portfolio demo 3](./assets/images/portfolio-website-preview-3.png)
+![portfolio demo](./assets/images/portfolio-website-preview.png)
+
 
 This layout is designed for desktop viewing, but optimized for mobile. When you scroll in or out the flex design should place images and sections one top top of the other, in a column.
 
