@@ -5,6 +5,7 @@
     <title>Advanced CSS Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
@@ -12,19 +13,28 @@
   <body>
     <!-- Header -->
     <header>
-      <h1>Advanced CSS Portfolio <span class="span">by Chris Kishel</span></h1>
       <!-- Navbar -->
-      <nav>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <span class="navbar-text">
+        <h1>Advanced CSS Portfolio <span class="span">by Chris Kishel</span></h1></span>
         <a href="#about-me">About Me</a>
         <a href="#work">Work</a>
         <a href="#contact-me">Contact Me</a>
       </nav>
     </header>
 
-    <figure id="top-image">
+    <!-- <figure id="top-image">
       <img src="./assets/images/desktop-computer.jpg" alt="Bootcamp Projects" id="top-image" />
       <p id="subtitle">GT Bootcamp Projects</p>
-    </figure>
+    </figure> -->
+    
+    <div class="card bg-dark text-white">
+      <img class="card-img" src="./assets/images/desktop-computer.jpg" alt="Bootcamp Projects">
+      <div class="card-img-overlay">
+        <h5 class="card-title text-white">GT Bootcamp Projects</h5>
+        <p class="card-text">This is collection of projects completed during the Georgia Tech Full Stack Coding Bootcamp.</p>
+        </div>
+    </div>
 
     <!-- Body -->
     <main>
@@ -121,7 +131,16 @@
 
     <!-- Footer -->
     <footer>
-      <h6>Designed by Chris Kishel using HTML / CSS</h6>
+      
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+              <h1>Contact Me <span class="span">240.216.2348 chris.kishel@gmail.com</span></h1>
+              <a target="_blank" href="https://github.com/ckishel">Github Profile  </a>
+              <a target="_blank" href="https://www.linkedin.com/in/christopher-kishel-cpa-15650847/">LinkedIn Profile  </a>
+              <a target="_blank" href="https://www.freecodecamp.org/chriskishel">FreeCodeCamp Profile  </a>
+              <a target="_blank" href="https://ckishel.github.io/homework2_advanced_css_portfolio/assets/chris-kishel-resume.pdf">My Resume</a></P>
+            </nav>
+            <h6>Designed by Chris Kishel using HTML / CSS</h6>
     </footer>
   </body>
 

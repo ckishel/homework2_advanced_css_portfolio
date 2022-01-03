@@ -67,7 +67,7 @@ h3,h4,h5{
 
 /* Top image formatting */
 
-#top-image{
+/* #top-image{
   position: relative;
   text-align: center;
   color: white;
@@ -77,9 +77,9 @@ figure #top-image{
   width: 100%;
   display: flex;
   color: white;
-}
+} */
 
-#subtitle{
+/* #subtitle{
   position: absolute;
   display: flex;
   flex-wrap: wrap;
@@ -89,7 +89,7 @@ figure #top-image{
   font-size: larger;
   padding: 1%;
   background-color: #13293d;
-}
+} */
 
 #chris-image{
   position: relative;
