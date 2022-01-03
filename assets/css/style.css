@@ -64,113 +64,19 @@ h3,h4,h5{
   font-size: 35px;
 }
 
-
-/* Top image formatting */
-
-/* #top-image{
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-figure #top-image{
-  width: 100%;
-  display: flex;
-  color: white;
-} */
-
-/* #subtitle{
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  bottom: 20px;
-  right: 16px;
-  font-size: larger;
-  padding: 1%;
-  background-color: #13293d;
-} */
-
-#chris-image{
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-figure #chris-image{
-  width: 100%;
-  display: flex;
-  color: white;
-}
-
-#chris-subtitle{
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  bottom: 20px;
-  left: 16px;
-  font-size: smaller;
-  padding: 1%;
-  background-color: #13293d;
-}
-
-#chris-subtitle span{
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  bottom: 20px;
-  left: 10px;
-  font-size: smaller;
-  padding: 1%;
-  background-color: #13293d;
-}
+/* Body */
 
 main{
   display: flex;
   flex-wrap: wrap;
 }
 
-/* #about-me{
-  flex: 20%;
-  background-color: #fff;
-  color: #13293d;
-  text-align: right;
-  border-right: solid;
-  border-width: 10px;
-  border-radius: 10px;
-  border-color: #13293d;
-  padding-right: 20px;
-  padding-top: 100px;
- } */
-
-/* flex in aside section is the size of left hand column */
-
-.column1{
-  flex: 20%;
-  background-color: #fff;
-  color: #13293d;
-  text-align: right;
-  border-right: solid;
-  border-width: 10px;
-  border-radius: 10px;
-  border-color: #13293d;
-  padding-right: 20px;
-  padding-top: 100px;
- }
-
-.column2{
-  flex: 80%;
-  background-color: #fff;
-  color: #13293d;
-  text-align: right;
-}
-
 header nav a:hover{
   color: #7fffd4;
   text-decoration: underline;
 }
+
+/* Footer */
 
 footer{
   padding: 40px;
@@ -179,229 +85,14 @@ footer{
   color: #fff;
 }
 
-/* #contact-subtitle{
-
-} */
-
-.contact-subtitle p span a:hover{
-  color: #7fffd4;
-  text-decoration: underline;
-}
-
-/* padding in projects class gives this a border between header */
-
-.top-project{
-  flex: 4;
-  background-color: #fff;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  padding-right:700px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.projects{
-  flex: 4;
-  background-color: #fff;
-  padding-top: 100px;
-  padding-left: 20px;
-  padding-right: 200px;
-  padding-bottom: 150px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.bottom-project{
-  flex: 4;
-  background-color: #fff;
-  padding-left: 20px;
-  padding-right: 200px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-/* border, padding and flex give this a border between cards */
-.big-card{
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-  padding: 10px;
-  flex: 1 1 100%;
-}
-/* padding in header makes the space up top smaller */
-.big-card header{
-  padding: 20px;
-}
-
-.big-card p{
-  text-align: left;
-}
-
-.big-card img{
-  width: 100%;
-}
-
-/* border, padding and flex give this a border between cards */
-.small-card{
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 10px;
-  padding: 10px;
-  flex: 1 1 40%;
-}
-/* padding in header makes the space up top smaller */
-.small-card header{
-  padding: 20px;
-}
-
-.small-card p{
-  text-align: left;
-}
-
-.small-card img{
-  width: 100%;
-}
-
-.small-card ul li{
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
-
-#project-image{
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-figure #project-image{
-  width: 100%;
-  display: flex;
-  color: white;
-}
-
-#project-subtitle{
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  bottom: 20px;
-  left: 16px;
-  font-size: larger;
-  padding: 1%;
-  background-color: #13293d;
-}
-
-#project-subtitle span{
-  position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  bottom: 20px;
-  left: 10px;
-  font-size: smaller;
-  padding: 1%;
-  background-color: #13293d;
-}
-
-/*Begin shimmer code*/
-  
-@keyframes shine {
-  to {
-    background-position: 200% center;
-  }
-}
-
-@media screen and (max-width: 1260px) {
-  h1 {
-    font-size: 5em;
-  }
-}
-@media screen and (max-width: 1170px) {
-  h1 {
-    font-size: 4em;
-  }
-}
-@media screen and (max-width: 876px) {
-  .image-header {
-    display:list-item;
-    list-style: none;
-    text-align: center;
-}
-  h1 {
-    font-size: 3.8em;
-}
-  #new-music-text {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-size: 3em;
-}
 @media screen and (max-width: 768px) {
-  .container {
-    height: 725px;
-  }
-}
-@media screen and (max-width: 540px) {
-  .container {
-    height: 1250px;
-  }
-}
-@media screen and (max-width: 414px) {
-  .container {
-    height: 1150px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .container {
-    height: 1300px;
-  }
-  
-}
-
-}
-@media screen and (max-width: 320px) {
-  h1 {
-    font-size: 3em;
-  }
-  h4 {
-    font-size: 2em;
-  }
-  #new-music-text {
-    font-size: 2em;
-  }
-  .container {
-    height: 1050px;
-  }
-}
-@media screen and (max-width: 280px) {
-  h1 {
-    font-size: 2.5em;
-  }
-  h4 {
-    font-size: 1.5em;
-  }
-  #new-music-text {
-    font-size: 1.5em;
-  }
-  .container {
-    height: 1050px;
-  }
-}
-
-/* @media screen and (max-width: 768px) {
   main,
    nav {
      flex-direction: column;
    }
-} */
+}
 
-/* 
+
 @media screen and (min-width: 800px) {
   .column1 {
     flex: 1
@@ -411,7 +102,6 @@ figure #project-image{
     flex: 2
   }
 }
-*/
 
 /* free desktop computer image https://unsplash.com/photos/dpbXgTh0Lac */
 
