@@ -132,6 +132,19 @@ main{
   flex-wrap: wrap;
 }
 
+/* #about-me{
+  flex: 20%;
+  background-color: #fff;
+  color: #13293d;
+  text-align: right;
+  border-right: solid;
+  border-width: 10px;
+  border-radius: 10px;
+  border-color: #13293d;
+  padding-right: 20px;
+  padding-top: 100px;
+ } */
+
 /* flex in aside section is the size of left hand column */
 
 .column1{
